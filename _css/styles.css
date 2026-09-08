@@ -1,0 +1,140 @@
+/* setting the main page background and removing the default margin */
+html, /* setting the main font, width, spacing, and line height */
+body {
+	background: #663399; /* Beccapurple */
+	margin: 0;
+}
+/* resetting heading and paragraph spacing so the layout is easier to control */
+h1, h2, h3, h4, h5, h6, /* giving paragraphs some space from the next element */
+p {
+	margin: 0;
+	padding: 0;
+}
+/* these are the heading colors used across the page */
+h1, h2, h3, h4, h5, h6 {
+	color: rgb(107, 107, 132);
+}
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2.5% 2.5% 0;
+	background: white;
+	line-height: 1.8;
+}
+/* styling the main course heading */
+h1 {
+	font: 1.6em Verdana, Geneva, sans-serif;
+	margin-bottom: .4em;
+	color: rgb(83, 104, 138);
+}
+/* styling the page title */
+h2 {
+	font: 3.2em Georgia, "Times New Roman", Times, serif;
+	margin-bottom: .2em;
+}
+/* smaller headings for each content section */
+h3 {
+	font-size: 1.2em;
+}
+p {
+	margin-bottom: 1em;
+}
+/* setting the normal link color */
+a {
+	color: rgb(184, 126, 84);
+}
+/* changing the link color when the mouse is over it */
+a:hover {
+	color: rgb(120, 97, 55);
+}
+/* styling code examples so they stand out on the page */
+pre {
+	font-size: 1.4em;
+	color: white;
+	padding: .5em 1em;
+	border-left: 1em solid #A68048;
+	background: #666;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	width: 80%;
+}
+/* showing the wrong code example differently */
+pre.wrong {
+	border-left-color: red;
+}
+/* showing the correct code example differently */
+pre.correct {
+	border-left-color: green;
+}
+/* styling the terms in the reference list */
+dt {
+	font-style: italic;
+	font-size:1.2em;
+}
+/* spacing out the definitions */
+dd {
+	margin-bottom: 1.4em;
+}
+/* adding space above the reference table */
+table {
+	margin-top: 1em;
+}
+/* keeping the table caption easy to read */
+caption {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1em;
+	text-align: left;
+}
+/* adding padding inside table cells */
+td, th {
+	padding: 10px;
+}
+/* centering the character examples */
+.center {
+	text-align: center;
+}
+/* separating the page title from the content below */
+header h2 {
+	padding-bottom: .2em;
+	border-bottom: 1px solid gray;
+}
+/* styling extra information shown in the sidebar */
+aside {
+	padding: 1em;
+	background:rgb(83, 104, 138);
+	color: white;
+	margin-bottom: 1em;
+}
+/* making the sidebar heading readable */
+aside h4 {
+	color: white;
+}
+/* styling the footer at the bottom of each page */
+footer {
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: .8em;
+	line-height: 4em;
+	margin-top: 1em;
+}
+/* making quoted text look different from normal text */
+blockquote {
+	font-style: italic;
+}
+/* floating an image to the right of nearby text */
+.flowRight {
+	float: right;
+	margin-left: 10px;
+}
+/* floating an image to the left of nearby text */
+.flowLeft {
+	float: left;
+	margin-right: 10px;
+}

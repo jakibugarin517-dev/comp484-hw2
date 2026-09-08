@@ -1,0 +1,45 @@
+COMP 484 HW2 — Structuring Page Content
+
+Semantic structure strategy
+---------------------------
+html
+  head
+  body
+    header (role="banner")
+      h1 Comp 484
+      h2 [page title]
+      nav (role="navigation", aria-label="Main navigation")
+        ul / li / a
+    main (role="main")
+      article (role="article")
+        section(s)
+          h3 [major topic]
+          h4 [subtopic, when needed]
+        aside (role="complementary") when content is related but not part of the main flow
+    footer (role="contentinfo")
+      CSUN information
+
+Document outline for structure.html
+-----------------------------------
+1. Comp 484
+   1.1 Structuring Pages
+       1.1.1 Conveying meaning through structure
+       1.1.2 Sectioning elements
+       1.1.3 Document outlines
+             W3C Warning (complementary aside)
+       1.1.4 WAI-ARIA Roles
+
+ARIA strategy
+-------------
+- header: banner
+- nav: navigation
+- main: main
+- article: article
+- aside: complementary
+- footer: contentinfo
+- Navigation uses aria-label="Main navigation"
+- The current navigation link uses aria-current="page"
+
+The semantic HTML elements already carry native accessibility semantics;
+the explicit roles are included where the assignment calls for them and
+to make the landmark structure clear.
